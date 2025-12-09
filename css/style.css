@@ -615,7 +615,7 @@ text-decoration: none;
 .new-card{
     border-radius: 25px;
     width: 730px;
-    min-height: 440px;
+  min-height: 440px;
     background-color: #FFFFFF;
 }
 .new-card-subtext{
@@ -628,6 +628,7 @@ text-decoration: none;
     gap: 30px;
 }
 .card-form{
+
     padding: 30px;
 }
 .card-form input{
@@ -670,5 +671,4 @@ text-decoration: none;
 .btn-credit:hover{
     background-color: #539BFF;
     transition:ease 0.5s;
-
 }
