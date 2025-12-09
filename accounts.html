@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankDash</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/iconBankDash.svg" type="image/x-icon">
+</head>
+<body>
+    <!-- Менюшка -->
+    <header class="bankdash-header">
+        <div class="header-left">
+            <div class="logo">
+                <img src="img/iconBankDash.svg" alt="BankDash">
+                <span>BankDash.</span>
+            </div>
+            <nav class="nav-menu">
+                <a>Accounts</a>
+            </nav>
+        </div>
+
+        <div class="header-right">
+            <div class="search-box">
+                <img src="img/search.svg" alt="Search">
+                <input type="text" placeholder="Search for something" aria-label="Search">
+            </div>
+
+            <button class="icon-button">
+                <img src="img/settings.svg" alt="settings">
+            </button>
+
+            <button class="icon-button">
+                <img src="img/notification.svg" alt="notifications">
+            </button>
+
+            <div class="user-avatar">
+                <img src="img/user-avatar.svg" alt="user-avatar">
+            </div>
+        </div>
+    </header>
+
+    <!-- Левое Меню -->
+    <div class="left-sidebar-menu">
+        <nav class="menu-items">
+            <a href="First.html" class="menu-item">
+                <img src="img/dashboard-gray.svg" alt="Dashboard">
+                <span>Dashboard</span>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="img/17-transfer.svg" alt="Transactions">
+                <span>Transactions</span>
+            </a>
+            <a href="accounts.html" class="menu-itemf">
+                <img src="img/accounts-avatar.svg" alt="Accounts">
+                <span>Accounts</span>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="img/economic-investment.svg" alt="Investments">
+                <span>Investments</span>
+            </a>
+            <a href="credit.html" class="menu-item">
+                <img src="img/credit-card.svg" alt="Credit-Cards">
+                <span>Credit Cards</span>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="img/loan.svg" alt="Loans">
+                <span>Loans</span>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="img/service.svg" alt="Services">
+                <span>Services</span>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="img/econometrics.svg" alt="My-Privileges">
+                <span>My Privileges</span>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="img/settingsMenu.svg" alt="Setting">
+                <span>Setting</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Контент страницы -->
+    <main class="main-content">
+        
+        <div class="accounts">
+            <!-- Карточки -->
+            <div class="account-card">
+                <div class="card-space">
+                    <img src="img/card-balance.svg" alt="balance">
+                    <div class="right-space">
+                        <p class="name-acc">My Balance</p>
+                        <p class="worth-acc">$12,750</p>
+                    </div>
+                </div>
+                <div class="card-space">
+                    <img src="img/card-income.svg" alt="income">
+                    <div class="right-space">
+                        <p class="name-acc">Income</p>
+                        <p class="worth-acc">$5,600</p>
+                    </div>
+                </div>
+                <div class="card-space">
+                    <img src="img/card-expense.svg" alt="expense">
+                    <div class="right-space">
+                        <p class="name-acc">Expense</p>
+                        <p class="worth-acc">$3,460</p>
+                    </div>
+                </div>
+                <div class="card-space">
+                    <img src="img/card-saving.svg" alt="saving">
+                    <div class="right-space">
+                        <p class="name-acc">Total Saving</p>
+                        <p class="worth-acc">$7,920</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Транзакции и карта -->
+            <div class="transaction-mycard">
+                <div class="transaction">
+                    <p class="transaction-headline">Last Transaction</p>
+                    <table class="transaction-table">
+                        <tr>
+                            <td><img src="img/transaction-spotify.svg" alt="spotify"></td>
+                            <td class="transaction-td">
+                                <div class="transaction-medium">Spotify Subscription</div>
+                                <div class="transaction-gray">25 Jan 2021</div>
+                            </td>
+                            <td><div class="transaction-gray">Shopping</div></td>
+                            <td class="transaction-gray">1234 ****</td>
+                            <td class="transaction-gray">Pending</td>
+                            <td class="neg-worth">-$150</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/transaction-mobile.svg" alt="mobile service"></td>
+                            <td class="transaction-td">
+                                <div class="transaction-medium">Mobile Service</div>
+                                <div class="transaction-gray">25 Jan 2021</div>
+                            </td>
+                            <td class="transaction-gray">Service</td>
+                            <td class="transaction-gray">1234 ****</td>
+                            <td class="transaction-gray">Completed</td>
+                            <td class="neg-worth">-$340</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/transaction-emily.svg" alt="emily"></td>
+                            <td class="transaction-td">
+                                <div class="transaction-medium">Emilly Wilson</div>
+                                <div class="transaction-gray">25 Jan 2021</div>
+                            </td>
+                            <td class="transaction-gray">Transfer</td>
+                            <td class="transaction-gray">1234 ****</td>
+                            <td class="transaction-gray">Completed</td>
+                            <td class="plus-worth">+$780</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Моя карта -->
+                <div class="mycard">
+                    <div class="mycard-div">
+                        <p class="transaction-headline">My Card</p>
+                        <a href="credit.html" class="transaction-headline-mini">See All</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <div class="balance-label">Balance</div>
+                                <div class="balance">$5,756</div>
+                            </div>
+                            <img class="chip" src="img/Chip_Card.svg" alt="chip">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-holder">
+                                <div class="card-holder-label">CARD HOLDER</div>
+                                <div class="card-holder-name">Eddy Cusuma</div>
+                            </div>
+                            <div class="valid-thru">
+                                <div class="valid-holder-label">VALID THRU</div>
+                                <div class="valid-holder-date">12/22</div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-number">3778 **** **** 1234</div>
+                            <img src="img/card-eclips.svg" alt="card">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Дебет и кредит ревью -->
+            <div class="debit-invoices">
+                <div class="debit-credit">
+                    <p class="transaction-headline">Debit & Credit Overview</p>
+                    <div class="debit-credit-overview">
+                        <img src="img/debit-credit.png" alt="debit-credit">
+                    </div>
+                </div>
+
+                <!-- Инвойсы -->
+                <div class="invoices-sent">
+                    <p class="transaction-headline">Invoices Sent</p>
+                    <table class="invoices-table">
+                        <tr>
+                            <td><img class="invoices-img" src="img/invoices-apple.svg" alt="apple"></td>
+                            <td class="invoices-info">
+                                <div class="invoices-gray">Apple Store</div>
+                                <div class="transaction-gray">5h ago</div>
+                            </td>
+                            <td class="invoices-cash">$450</td>
+                        </tr>
+                        <tr>
+                            <td><img class="invoices-img" src="img/invoices-michael.svg" alt="michael"></td>
+                            <td class="invoices-info">
+                                <div class="invoices-gray">Michael</div>
+                                <div class="transaction-gray">2 days ago</div>
+                            </td>
+                            <td class="invoices-cash">$160</td>
+                        </tr>
+                        <tr>
+                            <td><img class="invoices-img" src="img/invoices-playstation.svg" alt="playstation"></td>
+                            <td class="invoices-info">
+                                <div class="invoices-gray">Playstation</div>
+                                <div class="transaction-gray">5 days ago</div>
+                            </td>
+                            <td class="invoices-cash">$1085</td>
+                        </tr>
+                        <tr>
+                            <td><img class="invoices-img" src="img/invoices-william.svg" alt="william"></td>
+                            <td class="invoices-info">
+                                <div class="invoices-gray">William</div>
+                                <div class="transaction-gray">10 days ago</div>
+                            </td>
+                            <td class="invoices-cash">$90</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
