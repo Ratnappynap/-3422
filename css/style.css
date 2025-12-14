@@ -372,6 +372,7 @@ font-weight: bold;
     color: #718EBF;
 }
 .transaction-table {
+    border-radius: 25px;
     width: 730px;
     height: 235px;
     padding: 25px;
@@ -672,3 +673,4 @@ text-decoration: none;
     background-color: #539BFF;
     transition:ease 0.5s;
 }
+
