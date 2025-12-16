@@ -245,6 +245,7 @@ body {
 .mycard-div {
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
 }
 
 .card {
@@ -673,4 +674,5 @@ text-decoration: none;
     background-color: #539BFF;
     transition:ease 0.5s;
 }
+
 
