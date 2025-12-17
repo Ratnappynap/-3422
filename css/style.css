@@ -256,7 +256,7 @@ body {
     border-radius: 25px;
     padding: 24px 26px;
     color: white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
     position: relative;
     overflow: hidden;
 }
@@ -448,7 +448,7 @@ color: #16DBAA;
     border-radius: 25px;
     padding: 24px 26px;
     color: white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+ 
     position: relative;
     overflow: hidden;
 }
@@ -460,7 +460,7 @@ color: #16DBAA;
     border-radius: 25px;
     padding: 24px 26px;
     color: white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  
     position: relative;
     overflow: hidden;
 }
@@ -473,7 +473,7 @@ color: #16DBAA;
     border-radius: 25px;
     padding: 24px 26px;
     color: black;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
     position: relative;
     overflow: hidden;
 }
@@ -674,5 +674,6 @@ text-decoration: none;
     background-color: #539BFF;
     transition:ease 0.5s;
 }
+
 
 
